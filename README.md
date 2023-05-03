@@ -1,7 +1,7 @@
 # MNIST Dataset
 #### **Hand-written Digit Classification with a Convolutional Neural Network**
 
-Dataset Source: [http://yann.lecun.com/exdb/mnist/]
+Dataset Source: http://yann.lecun.com/exdb/mnist/
 
 Implementing a CNN and training it on MNIST dataset. 
 
@@ -49,7 +49,7 @@ Non-trainable params: 896</pre>
 
 After training for 23 epochs, it obtained ``99.38%`` accuracy on the test set.
 
-The trained model is available on ``./trained_model/model.h5`` file.
+The trained model is available in ``./trained_model/model.h5`` file.
 
 Learning curves is as follows:
 
