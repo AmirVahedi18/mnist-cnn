@@ -7,7 +7,7 @@ Implementing a CNN and training it on MNIST dataset.
 
 The CNN model has the following architecture: 
 
-''Model: "sequential"
+<pre>Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -45,10 +45,13 @@ dense_1 (Dense)              (None, 10)                2570
 =================================================================
 Total params: 336,490
 Trainable params: 335,594
-Non-trainable params: 896''
+Non-trainable params: 896</pre>
 
 After training for 23 epochs, it obtained ``99.38%`` accuracy on the test set.
 
-The trained model is available on ``model.h5`` file.
+The trained model is available on ``./trained_model/model.h5`` file.
 
 Learning curves is as follows:
+
+![learning_curves](https://user-images.githubusercontent.com/77887540/235900916-62065606-4fc8-4914-8978-49bfe25f74d5.png)
+
